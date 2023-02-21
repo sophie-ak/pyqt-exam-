@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>525</width>
+    <height>328</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>11</x>
+     <y>11</y>
+     <width>501</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Путь к директории</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="text">
+         <string>Обзор</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Файл (с расширением для строки)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>String</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bytes</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Binary</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>Поиск</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QListWidget" name="listWidget"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
